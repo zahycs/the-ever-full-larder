@@ -1,0 +1,35 @@
+{
+  "dataset_name": "Pantry Item Recognition Dataset",
+  "version": "1.0",
+  "categories": [
+    "flour",
+    "sugar",
+    "salt",
+    "rice",
+    "pasta",
+    "beans",
+    "canned_vegetables",
+    "canned_fruits",
+    "oil",
+    "butter",
+    "milk",
+    "cheese",
+    "eggs",
+    "bread",
+    "cereal"
+  ],
+  "total_categories": 15,
+  "image_size": [
+    224,
+    224
+  ],
+  "preprocessing": {
+    "resize": true,
+    "normalization": "0-1 range",
+    "augmentation": true
+  },
+  "split_ratio": {
+    "training": 0.8,
+    "validation": 0.2
+  }
+}
